@@ -1,0 +1,40 @@
+.logo {
+    width: 130px;
+}
+
+.btn {
+    background-color: #D97652;
+    border: none;
+    color: #FFFFFF;
+    width: 147px;
+    height: 50px;
+    border-radius: 40px;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 15px 30px;
+}
+
+.navbar {
+    /* position: fixed; */
+    /* height: 102px; */
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+    line-height: 20px;
+    background-color: pink;
+}
+.navbar .nav-logo {
+    /* margin-left: 320px; */
+    margin: auto 0;
+}
+.navbar .nav-menu>a {
+    /* display: inline-block; */
+    /* margin-right: 320px; */
+    margin: 41px 15px;
+    color: black;
+}
+.navbar .nav-menu>.btn {
+    margin: 26px 25px;
+}

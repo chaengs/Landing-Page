@@ -1,10 +1,10 @@
-@font-face {
+/* @font-face {
     font-family: "Spoqa Han Sans Neo";
     src: url("../font/SpoqaHanSansNeo-Regular.otf");
-}
+} */
 
 * {
-    font-family: "Spoqa Han Sans Neo";
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
 }
 
 /* body {
@@ -15,41 +15,94 @@
     background-color:#F2E9D8;
     height: 900px;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.header .cont-wrap {
-    position: relative;
-    left: 15rem;
-    top: 302px;
-}
-.header h2 {
+.header .cont-wrap .title {
     font-size: 48px;
     font-weight: bold;
     line-height: 60px;
 }
 .header .cont-wrap .txt-wrap {
     margin: 40px 0;
-    font-size: 1rem;
+    font-size: 16px;
     line-height: 20px;
 }
 .header .img-main {
-    width: 50%;
-    float: right;
+    width: 415px;
+    margin-top: 134px;
 }
 
+.first-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .first-section img {
-    width: 30vw;
+    width: 660px;
+    height: 390px;
     border-radius: 30px;
-    filter: drop-shadow(10px 10px 30px rgba(0, 0, 0, 0.25));
+    margin-top: 80px;
+    /* filter: drop-shadow(10px 10px 30px rgba(0, 0, 0, 0.25)); */
 }
-.first-section .txt-wrap {
-    float: right;
-}
-.first-section h3 {
-    font-size: 2rem;
+.first-section .txt-wrap .txt-tit {
+    font-size: 32px;
     line-height: 45px;
     font-weight: bold;
 }
-.first-section p {
-    font-size: 1rem;
+.first-section .txt-wrap .txt-cont {
+    font-size: 16px;
     line-height: 20px;
+    margin-top: 30px;
+}
+
+.sec-section h4 {
+    color: #D97652;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 68px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 120px;
+}
+.sec-section span {
+    color: #D97652;
+}
+.sec-section p {
+    text-align: center;
+    line-height: 20px;
+}
+.sec-section img {
+    width: 378px;
+}
+.sec-section .img-wrap {
+    text-align: center;
+    margin-top: 88px;
+}
+
+.cont-3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+.cont-3 .txt-wrap {
+    text-align: left;
+    margin-right: 52px;
+}
+
+.subscribe {
+    width: 1280px;
+    height: 200px;
+    background-color: #263140;
+    border-radius: 30px;
+    position: absolute;
+    left: 0;
+}
+.subscribe h3 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 45px;
+    color: #FFFFFF;
+    text-align: center;
 }

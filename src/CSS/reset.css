@@ -67,3 +67,7 @@ img{
 a {
 	text-decoration-line: none;
 }
+
+input {
+	border: 0 solid black;
+}

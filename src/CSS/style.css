@@ -84,7 +84,7 @@
 .cont-3 {
     display: flex;
     justify-content: center;
-    margin-top: 90px;
+    margin: 90px auto;
 }
 .cont-3 .txt-wrap {
     text-align: left;
@@ -96,13 +96,50 @@
     height: 200px;
     background-color: #263140;
     border-radius: 30px;
-    position: absolute;
-    left: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.subscribe h3 {
+.subscribe .txt-wrap h3 {
+    color: #FFFFFF;
     font-size: 36px;
     font-weight: bold;
     line-height: 45px;
+    /* text-align: center; */
+}
+.subscribe .txt-wrap p {
     color: #FFFFFF;
-    text-align: center;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: normal;
+}
+.subscribe .form-wrap {
+    width: 530px;
+    height: 60px;
+    background-color: #FFFFFF;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .subscribe .form-wrap .input-wrap::after {
+    content: "";
+    width: 24px;
+    height: 24px;
+    background-image: url("../src/images/mail.png");
+    position: absolute;
+    right: 0;
+} */
+.subscribe .form-wrap form {
+    position: relative;
+}
+.subscribe .form-wrap form::after {
+    content: "";
+    width: 24px;
+    height: 24px;
+    background-image: url("../src/images/mail.png");
+    display: block;
+    position: absolute;
+    left: 0;
 }
